@@ -7,9 +7,9 @@ How to use:
  
  You should to implement:
 
- NotificationCenter.default.addObserver(self, selector: #selector(keyboardFrameChanged(notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
- NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
- NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+   NotificationCenter.default.addObserver(self, selector: #selector(keyboardFrameChanged(notification:)), name:    NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
+   NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name:   NSNotification.Name.UIKeyboardWillShow, object: nil)
+   NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(notification:)), name:   NSNotification.Name.UIKeyboardWillHide, object: nil)
  
  And call "keyBoardChangeNotif" on all results.
  
