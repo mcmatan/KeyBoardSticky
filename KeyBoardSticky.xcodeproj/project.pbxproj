@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AFE74CC1F973B8C00E56093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE74CB1F973B8C00E56093 /* AppDelegate.swift */; };
+		8AFE74CE1F973B8C00E56093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE74CD1F973B8C00E56093 /* ViewController.swift */; };
+		8AFE74D11F973B8C00E56093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE74CF1F973B8C00E56093 /* Main.storyboard */; };
+		8AFE74D31F973B8C00E56093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE74D21F973B8C00E56093 /* Assets.xcassets */; };
+		8AFE74D61F973B8C00E56093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFE74D41F973B8C00E56093 /* LaunchScreen.storyboard */; };
+		8AFE74E11F973B8C00E56093 /* KeyBoardStickyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE74E01F973B8C00E56093 /* KeyBoardStickyTests.swift */; };
+		8AFE74EC1F973B8C00E56093 /* KeyBoardStickyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE74EB1F973B8C00E56093 /* KeyBoardStickyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFE74DD1F973B8C00E56093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFE74C01F973B8C00E56093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFE74C71F973B8C00E56093;
+			remoteInfo = KeyBoardSticky;
+		};
+		8AFE74E81F973B8C00E56093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFE74C01F973B8C00E56093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFE74C71F973B8C00E56093;
+			remoteInfo = KeyBoardSticky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AFE74C81F973B8C00E56093 /* KeyBoardSticky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardSticky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFE74CB1F973B8C00E56093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AFE74CD1F973B8C00E56093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AFE74D01F973B8C00E56093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AFE74D21F973B8C00E56093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AFE74D51F973B8C00E56093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AFE74D71F973B8C00E56093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFE74DC1F973B8C00E56093 /* KeyBoardStickyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardStickyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFE74E01F973B8C00E56093 /* KeyBoardStickyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardStickyTests.swift; sourceTree = "<group>"; };
+		8AFE74E21F973B8C00E56093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFE74E71F973B8C00E56093 /* KeyBoardStickyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardStickyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFE74EB1F973B8C00E56093 /* KeyBoardStickyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyBoardStickyUITests.swift; sourceTree = "<group>"; };
+		8AFE74ED1F973B8C00E56093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AFE74C51F973B8C00E56093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74D91F973B8C00E56093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74E41F973B8C00E56093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AFE74BF1F973B8C00E56093 = {
+			isa = PBXGroup;
+			children = (
+				8AFE74CA1F973B8C00E56093 /* KeyBoardSticky */,
+				8AFE74DF1F973B8C00E56093 /* KeyBoardStickyTests */,
+				8AFE74EA1F973B8C00E56093 /* KeyBoardStickyUITests */,
+				8AFE74C91F973B8C00E56093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFE74C91F973B8C00E56093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE74C81F973B8C00E56093 /* KeyBoardSticky.app */,
+				8AFE74DC1F973B8C00E56093 /* KeyBoardStickyTests.xctest */,
+				8AFE74E71F973B8C00E56093 /* KeyBoardStickyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFE74CA1F973B8C00E56093 /* KeyBoardSticky */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE74CB1F973B8C00E56093 /* AppDelegate.swift */,
+				8AFE74CD1F973B8C00E56093 /* ViewController.swift */,
+				8AFE74CF1F973B8C00E56093 /* Main.storyboard */,
+				8AFE74D21F973B8C00E56093 /* Assets.xcassets */,
+				8AFE74D41F973B8C00E56093 /* LaunchScreen.storyboard */,
+				8AFE74D71F973B8C00E56093 /* Info.plist */,
+			);
+			path = KeyBoardSticky;
+			sourceTree = "<group>";
+		};
+		8AFE74DF1F973B8C00E56093 /* KeyBoardStickyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE74E01F973B8C00E56093 /* KeyBoardStickyTests.swift */,
+				8AFE74E21F973B8C00E56093 /* Info.plist */,
+			);
+			path = KeyBoardStickyTests;
+			sourceTree = "<group>";
+		};
+		8AFE74EA1F973B8C00E56093 /* KeyBoardStickyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFE74EB1F973B8C00E56093 /* KeyBoardStickyUITests.swift */,
+				8AFE74ED1F973B8C00E56093 /* Info.plist */,
+			);
+			path = KeyBoardStickyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AFE74C71F973B8C00E56093 /* KeyBoardSticky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFE74F01F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardSticky" */;
+			buildPhases = (
+				8AFE74C41F973B8C00E56093 /* Sources */,
+				8AFE74C51F973B8C00E56093 /* Frameworks */,
+				8AFE74C61F973B8C00E56093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardSticky;
+			productName = KeyBoardSticky;
+			productReference = 8AFE74C81F973B8C00E56093 /* KeyBoardSticky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AFE74DB1F973B8C00E56093 /* KeyBoardStickyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFE74F31F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardStickyTests" */;
+			buildPhases = (
+				8AFE74D81F973B8C00E56093 /* Sources */,
+				8AFE74D91F973B8C00E56093 /* Frameworks */,
+				8AFE74DA1F973B8C00E56093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFE74DE1F973B8C00E56093 /* PBXTargetDependency */,
+			);
+			name = KeyBoardStickyTests;
+			productName = KeyBoardStickyTests;
+			productReference = 8AFE74DC1F973B8C00E56093 /* KeyBoardStickyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AFE74E61F973B8C00E56093 /* KeyBoardStickyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFE74F61F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardStickyUITests" */;
+			buildPhases = (
+				8AFE74E31F973B8C00E56093 /* Sources */,
+				8AFE74E41F973B8C00E56093 /* Frameworks */,
+				8AFE74E51F973B8C00E56093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFE74E91F973B8C00E56093 /* PBXTargetDependency */,
+			);
+			name = KeyBoardStickyUITests;
+			productName = KeyBoardStickyUITests;
+			productReference = 8AFE74E71F973B8C00E56093 /* KeyBoardStickyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AFE74C01F973B8C00E56093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Matan Cohen";
+				TargetAttributes = {
+					8AFE74C71F973B8C00E56093 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					8AFE74DB1F973B8C00E56093 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AFE74C71F973B8C00E56093;
+					};
+					8AFE74E61F973B8C00E56093 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AFE74C71F973B8C00E56093;
+					};
+				};
+			};
+			buildConfigurationList = 8AFE74C31F973B8C00E56093 /* Build configuration list for PBXProject "KeyBoardSticky" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AFE74BF1F973B8C00E56093;
+			productRefGroup = 8AFE74C91F973B8C00E56093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFE74C71F973B8C00E56093 /* KeyBoardSticky */,
+				8AFE74DB1F973B8C00E56093 /* KeyBoardStickyTests */,
+				8AFE74E61F973B8C00E56093 /* KeyBoardStickyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AFE74C61F973B8C00E56093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFE74D61F973B8C00E56093 /* LaunchScreen.storyboard in Resources */,
+				8AFE74D31F973B8C00E56093 /* Assets.xcassets in Resources */,
+				8AFE74D11F973B8C00E56093 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74DA1F973B8C00E56093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74E51F973B8C00E56093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AFE74C41F973B8C00E56093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFE74CE1F973B8C00E56093 /* ViewController.swift in Sources */,
+				8AFE74CC1F973B8C00E56093 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74D81F973B8C00E56093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFE74E11F973B8C00E56093 /* KeyBoardStickyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFE74E31F973B8C00E56093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFE74EC1F973B8C00E56093 /* KeyBoardStickyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFE74DE1F973B8C00E56093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFE74C71F973B8C00E56093 /* KeyBoardSticky */;
+			targetProxy = 8AFE74DD1F973B8C00E56093 /* PBXContainerItemProxy */;
+		};
+		8AFE74E91F973B8C00E56093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFE74C71F973B8C00E56093 /* KeyBoardSticky */;
+			targetProxy = 8AFE74E81F973B8C00E56093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AFE74CF1F973B8C00E56093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFE74D01F973B8C00E56093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AFE74D41F973B8C00E56093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFE74D51F973B8C00E56093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AFE74EE1F973B8C00E56093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AFE74EF1F973B8C00E56093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFE74F11F973B8C00E56093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardSticky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardSticky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AFE74F21F973B8C00E56093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardSticky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardSticky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8AFE74F41F973B8C00E56093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardStickyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardStickyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardSticky.app/KeyBoardSticky";
+			};
+			name = Debug;
+		};
+		8AFE74F51F973B8C00E56093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardStickyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardStickyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyBoardSticky.app/KeyBoardSticky";
+			};
+			name = Release;
+		};
+		8AFE74F71F973B8C00E56093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardStickyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardStickyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardSticky;
+			};
+			name = Debug;
+		};
+		8AFE74F81F973B8C00E56093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KeyBoardStickyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.KeyBoardStickyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KeyBoardSticky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AFE74C31F973B8C00E56093 /* Build configuration list for PBXProject "KeyBoardSticky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFE74EE1F973B8C00E56093 /* Debug */,
+				8AFE74EF1F973B8C00E56093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFE74F01F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardSticky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFE74F11F973B8C00E56093 /* Debug */,
+				8AFE74F21F973B8C00E56093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFE74F31F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardStickyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFE74F41F973B8C00E56093 /* Debug */,
+				8AFE74F51F973B8C00E56093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFE74F61F973B8C00E56093 /* Build configuration list for PBXNativeTarget "KeyBoardStickyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFE74F71F973B8C00E56093 /* Debug */,
+				8AFE74F81F973B8C00E56093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AFE74C01F973B8C00E56093 /* Project object */;
+}
